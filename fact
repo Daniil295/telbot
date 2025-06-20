@@ -4,3 +4,5 @@ from random import choice
 def fact_handler(message):
     fact = choice(["Вы не можете пересчитать волосы на голове", "Вы не можете увидеть уши без зеркала"])
     bot.reply_to(message, fact)
+
+bot.infinity_polling()     
